@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 01 - Página web personal básica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css">
+</head>
+<body>
+    <!--
+        Ejercicio 1: Página web personal básica
+        
+        Objetivo: Crear una página web personal simple con encabezado, navegación, sección principal y pie de página.
+        
+        Contenido:
+            Encabezado: Logotipo, nombre y breve descripción.
+            Navegación: Enlaces a diferentes secciones de la página (inicio, sobre mí, proyectos, contacto).
+            Sección principal: Un artículo con información sobre ti, tus habilidades e intereses.
+            Pie de página: Información de contacto, derechos de autor y redes sociales.
+        
+        Etiquetas a utilizar:
+            header, nav, main, article, section, footer
+    -->
+    <header>
+        <img src="./imgs/logo.svg" alt="Logo" />
+        <h1>Web Personal de Franco</h1>
+        <p>Sitio personal en el cual se da un pantallazo sobre mi perfil.</p>
+        <nav>
+            <ul>
+                <li><a href="./01.html">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Informacion personal</h2>
+            <p>Debajo se encuentra un breve resumen de mi persona asi como mis habilidades e intereses.</p>
+            <section id="#sobremi">
+                <h3>Acerca de mi</h3>
+                <p>Estudiante de UADE con 10 años de experiencia profesional en distintas compañias de tecnologia.</p>
+            </section>
+            <section>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Desarrollo</li>
+                    <li>SEO</li>
+                    <li>Testing</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Intereses</h3>
+                <ul>
+                    <li>Deportes de riesgo</li>
+                    <li>Musica</li>
+                    <li>Testing</li>
+                </ul>
+            </section>
+            <section id="proyectos">
+                <h3>Proyectos</h3>
+                <ul>
+                    <li>Sistema de gestión de tareas</li>
+                    <li>E-commerce para tienda de ropa</li>
+                    <li>Sitio web para organización sin fines de lucro</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <h4 id="contacto">Contacto</h4>
+        <ul>
+            <li>Email: <a href="mailto:test@example.com">test@example.com</a></li>
+        </ul>
+        <p>2024 - Franco Manograsso</p>
+        <h4>Redes sociales</h4>
+        <ul>
+            <li>Redes sociales: <a href="https://www.instagram.com/instagram"><i class="fa fa-instagram"></i></a> <a href="https://ar.linkedin.com/in/francom94"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

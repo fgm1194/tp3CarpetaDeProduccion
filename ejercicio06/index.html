@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 06 - Carpeta de producción</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar blue-background">
+            <div class="container-fluid">
+                <a class="navbar-brand font-white" href="../index.html">TP3</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-3">
+            <section>
+                <h1 class="h3">Ejercicio 06</h1>
+                <div>
+                        <div>1. Cambiar el color de fondo para pantallas grandes:</div>
+                        <div>Objetivo:&nbsp;Cambiar el color de fondo de la página a un color más oscuro para pantallas con un ancho mínimo
+                            de 960px.</div>
+                        <div>Media Query:&nbsp;@media (min-width: 960px)</div>
+                        <div>Pista:&nbsp;Usa una clase CSS para definir el color de fondo y aplícala dentro del Media Query.</div>
+                        
+                        <div class="mt-3">2. Ajustar el tamaño de la fuente para pantallas pequeñas:</div>
+                        <div>Objetivo:&nbsp;Aumentar el tamaño de la fuente del texto principal para pantallas con un ancho máximo de 600px.
+                        </div>
+                        <div>Media Query:&nbsp;@media (max-width: 600px)</div>
+                        <div>Pista:&nbsp;Define un tamaño de fuente más grande en una clase CSS y aplícala dentro del Media Query.</div>
+                        
+                        <div class="mt-3">3. Esconder elementos en orientación vertical:</div>
+                        <div>Objetivo:&nbsp;Ocultar un elemento específico (por ejemplo, una barra lateral) cuando la pantalla esté en
+                            orientación vertical (modo retrato).</div>
+                        <div>Media Query:&nbsp;@media (orientation: portrait)</div>
+                        <div>Pista:&nbsp;Usa la propiedad&nbsp;display: none&nbsp;para ocultar el elemento dentro del Media Query.</div>
+                        
+                        <div class="mt-3">4. Mostrar elementos en orientación horizontal:</div>
+                        <div>Objetivo:&nbsp;Mostrar un elemento específico (por ejemplo, una barra de navegación) solo cuando la pantalla
+                            esté en orientación horizontal (modo paisaje).</div>
+                        <div>Media Query:&nbsp;@media (orientation: landscape)</div>
+                        <div>Pista:&nbsp;Usa la propiedad&nbsp;display: block&nbsp;para mostrar el elemento dentro del Media Query.</div>
+                        
+                        <div class="mt-3">5. Cambiar el diseño de columnas con Flexbox para pantallas pequeñas:</div>
+                        <div>Objetivo:&nbsp;Cambiar la disposición de elementos en columnas a una disposición en una sola columna para
+                            pantallas con un ancho máximo de 768px.</div>
+                        <div>Media Query:&nbsp;@media (max-width: 768px)</div>
+                        <div>Pista:&nbsp;Usa las propiedades de Flexbox&nbsp;flex-direction: column&nbsp;y&nbsp;align-items:
+                            center&nbsp;para la nueva disposición.</div>
+                        
+                        <div class="mt-3">6. Aumentar el espacio entre elementos en pantallas grandes:</div>
+                        <div>Objetivo:&nbsp;Aumentar el margen entre elementos de una lista o sección para pantallas con un ancho mínimo de
+                            1200px.</div>
+                        <div>Media Query:&nbsp;@media (min-width: 1200px)</div>
+                        <div>Pista:&nbsp;Define valores más grandes para las propiedades de margen dentro del Media Query.</div>
+                        
+                        <div class="mt-3">7. Cambiar la tipografía para títulos en pantallas pequeñas:</div>
+                        <div>Objetivo:&nbsp;Cambiar la familia de fuentes para títulos a una fuente más legible en pantallas con un ancho
+                            máximo de 576px.</div>
+                        <div>Media Query:&nbsp;@media (max-width: 576px)</div>
+                        <div>Pista:&nbsp;Define una nueva familia de fuentes para los títulos dentro del Media Query.</div>
+                        
+                        <div class="mt-3">8. Ajustar el tamaño de imágenes para pantallas pequeñas:</div>
+                        <div>Objetivo:&nbsp;Reducir el tamaño de las imágenes para que no ocupen todo el ancho de la pantalla en
+                            dispositivos móviles.</div>
+                        <div>Media Query:&nbsp;@media (max-width: 480px)</div>
+                        <div class="mb-3">Pista:&nbsp;Usa la propiedad&nbsp;width&nbsp;con un porcentaje o valor máximo dentro del Media Query.</div>
+                        <div><span>Consejos
+                                adicionales:</span><br></div>
+                        <div>Combina diferentes Media Queries para crear diseños adaptativos para distintos rangos de tamaños de pantalla.
+                        </div>
+                        <div>Utiliza herramientas de desarrollo web para previsualizar tu sitio web en diferentes dispositivos y ajustar tus
+                            Media Queries en consecuencia.</div>
+                        <div>Investiga las últimas propiedades y técnicas de CSS para crear diseños adaptables modernos.</div>
+                </div>
+                <section class="mt-3">
+                    <h2 class="h4">Resolucion</h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="ejercicio.html">1</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container mt-3">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+                        <i class="bi bi-backpack icon-color"></i>
+                    </a>
+                    <span class="mb-3 mb-md-0">486899 - 2024-2C - Diseño y desarrollo web</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a href="#">
+                            <i class="bi bi-twitter-x icon-color"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#">
+                            <i class="bi bi-instagram icon-color"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#">
+                            <i class="bi bi-facebook icon-color"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

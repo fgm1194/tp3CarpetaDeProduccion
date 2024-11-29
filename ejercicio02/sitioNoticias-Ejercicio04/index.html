@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de noticias - Ejercicio 04</title>
+</head>
+<body>
+    <!--
+        Ejercicio 4: Sitio web de noticias
+        
+        Objetivo: Crear una página web de noticias con diferentes secciones y artículos, utilizando etiquetas para organizar el contenido.
+
+        Contenido:
+            Encabezado: Logotipo del sitio web, nombre.
+            Navegación: Enlaces a las diferentes secciones de noticias (nacional, internacional, deportes, economía).
+            Sección principal:
+                Section: Artículos destacados de la sección seleccionada.
+                Article: Cada artículo con título, imagen, resumen y enlace a la noticia completa.
+                Aside: Publicidad o banners informativos.
+            Pie de página: Información de contacto, política de privacidad y términos de uso.
+
+        Etiquetas a utilizar:
+            header, nav, main, section, article, aside, figure, figcaption, footer
+    -->
+    <header>
+        <img src="./imgs/logoNoticias.svg" alt="Logo" />
+        <h1>Ipsum Noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="seccion/nacional.html">Nacional</a></li>
+                <li><a href="seccion/internacional.html">Internacional</a></li>
+                <li><a href="seccion/deportes.html">Deportes</a></li>
+                <li><a href="seccion/economia.html">Economía</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Noticias de la Argentina y el mundo</h2>
+            <article>
+                <h3>Los gremios aeronáuticos adelantaron las asambleas de esta noche y vuelven a afectar a cientos de pasajeros en Ezeiza</h3>
+                <figure>
+                    <img src="imgs/fotoNoticiaNacional.png" alt="Pasajero complicado" width="600">
+                </figure>
+                <p>Los gremios aeronáuticos adelantaron las asambleas de esta noche y vuelven a afectar a cientos de pasajeros en Ezeiza.</p>
+                <a href="noticia/noticiaNacional.html">Leer noticia completa</a>
+            </article>
+            <article>
+                <h3>Los jóvenes de Baleares, Madrid y Cataluña o alquilan o comen: los precios disparados les obligan a destinar todo su
+                salario al alquiler</h3>
+                <figure>
+                    <img src="imgs/fotoNoticiaInternacional.png" alt="Una pareja mira un edificio de viviendas en alquiler." width="600">
+                </figure>
+                <p>Su sueldo medio ronda los 1.050 euros mensuales y arrendar un piso les cuesta de media 1.062 euros.</p>
+                <a href="noticia/noticiaInternacional.html">Leer noticia completa</a>
+            </article>
+            <article>
+                <h3>El Cholo Simeone explicó por qué sacó a Julián Álvarez en el entretiempo: su ironía frente a una pregunta que lo
+                incomodó</h3>
+                <figure>
+                    <img src="imgs/fotoNoticiaDeporte.jpg" alt="Julian alvarez y 'El Cholo'" width="600">
+                </figure>
+                <p>El entrenador argentino habló tras el magro empate sin goles del Atlético de Madrid ante el Espanyol de Barcelona.</p>
+                <a href="noticia/noticiaDeporte.html">Leer noticia completa</a>
+            </article>
+            <article>
+                <h3>Cuánto costarán los autos a partir del lunes, tras la baja del impuesto PAIS</h3>
+                <figure>
+                    <img src="imgs/fotoNoticiaEconomia.png" alt="La baja de diez puntos del impuesto PAIS tendrá impacto directo en los costos de producción e importación." width="600">
+                </figure>
+                <p>La baja de 10 puntos se apreciará sobre vehículos completos, autopartes e insumos. La reducción impactará en un 70% de
+                los costos de un auto nacional y en el 100% de los importados.</p>
+                <a href="noticia/noticiaEconomia.html">Leer noticia completa</a>
+            </article>
+        </section>
+        <aside>
+            <h4>Publicidad</h3>
+            <img src="imgs/banner.png" alt="Banner publicitario">
+        </aside>
+    </main>
+    <footer>
+        Ipsum Noticias. Todos los derechos reservados.
+        <ul>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Términos de Uso</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

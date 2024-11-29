@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 06</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        .cuadrado {
+            background-color: red;
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+        }
+        @media (min-width: 960px) {
+            body {
+                background-color: black !important;
+                color: white;
+            }
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: larger;
+            }
+        }
+        @media (orientation: portrait) {
+            .cuadrado-landscape {
+                display: none;
+            }
+        }
+        @media (orientation: landscape) {
+            .cuadrado-portrait {
+                display: none;
+            }
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        @media (min-width: 1200px) {
+            .cuadrado {
+                margin: 25px;
+            }
+        }
+        @media (max-width: 576px) {
+            span {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+        @media (max-width: 480px) {
+            img {
+                width: 100px;
+            }
+        }
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola Mundo!</h1>
+    <div class="container">
+        <div class="cuadrado">
+            <span class="cuadrado-landscape">Landscape!</span>
+        </div>
+        <div class="cuadrado">
+            <span class="cuadrado-portrait">Portratit!</span>
+        </div>
+    </div>
+    <figure>
+        <img src="https://placehold.co/1280x200" alt="placeholder">
+    </figure>
+</body>
+</html>

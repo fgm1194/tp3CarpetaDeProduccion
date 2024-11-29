@@ -1,0 +1,27 @@
+.blue-background {
+    background-color: #0D5F77;
+}
+
+.font-white {
+    color: white;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.icon-color {
+    color: #023047;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.hero-text {
+    font-family: "Montserrat", serif;
+}
+
+.regular-text {
+    font-family: "Open Sans", sans-serif;
+}

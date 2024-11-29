@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Blog de viajes</title>
+</head>
+<body>
+    <!--
+        Ejercicio 2: Blog de viajes
+        
+        Objetivo: Crear un artículo de blog sobre un viaje reciente, utilizando etiquetas para estructurar el contenido.
+        
+        Contenido:
+            Encabezado: Título del artículo, fecha de publicación y nombre del autor.
+            Sección principal:
+                Artículo: Texto principal del artículo, con imágenes y subtítulos.
+                Aside: Galería de fotos adicionales del viaje.
+            Pie de página: Enlaces a otros artículos del blog y redes sociales.
+        
+        Etiquetas a utilizar:
+            header, main, article, section, aside, figure, figcaption, footer
+    -->
+    <header>
+        <h1>Mi Aventura en California</h1>
+        <p>25 de agosto de 2024</p>
+        <p><strong>Autor</strong>: Franco Manograsso</p>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h2>Explorando las Maravillas de California</h2>
+            <figure>
+                <img src="./imgs/hollywood.jpg" alt="Cartel de Hollywood">
+                <figcaption></figcaption>
+            </figure>
+            <p>California es un lugar lleno de maravillas naturales y culturales. En este blog, exploraré mis experiencias más
+            memorables durante mi viaje.</p>
+            <section>
+                <h3>Visitando San Francisco</h3>
+                <p>San Francisco es famosa por su icónico puente. Durante mi visita, decidí hacer un recorrido en bicicleta.</p>
+                <figure>
+                    <img src="./imgs/goldenGate.jpg" alt="Puente Golden Gate" />
+                    <figcaption>El impresionante Puente Golden Gate en San Francisco</figcaption>
+                </figure>
+            </section>
+            <aside>
+                <h3>Galería</h3>
+                <figure>
+                    <img src="./imgs/arbolSequoia.jpg" alt="Arbol del Parque Nacional Yosemite" />
+                    <figcaption>Parque Nacional Yosemite</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imgs/disneyCali.jpg" alt="Disneyland" />
+                    <figcaption>Divirtiéndome en Disneyland</figcaption>
+                </figure>
+            </aside>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <h4>Articulos relacionados</h4>
+        <ul>
+            <li><a href="#paris">Mi Aventura en Paris</a></li>
+            <li><a href="#roma">Mi Aventura en Roma</a></li>
+        </ul>
+        <h4>Redes sociales</h4>
+        <ul>
+            <li><a href="#instagram">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
